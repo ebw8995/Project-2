@@ -67,12 +67,43 @@ body {
 
 }
 
-header {
+h1{
 
+  font-size:24px;
+  font-family: 'w3-OpenSans', 800 sans-serif;
+  color: #FFFFFF;
+}
+
+h2{
+  font-size: 24px;
+  font-family: 'w3Open+Sans', 600 sans-serif;
+  color:#FFFFFF;
+}
+
+h3{
+  font-size: 14px;
+  font-family: 'w3-OpenSans', 800 sans-serif;
+  background-color: #f9e42e
+}
+
+h4{
+  font-size: 20px;
+  font-family: 'w3-OpenSans', 600 sans-serif;
+}
+
+.w3-container{
+  font-size: 13px;
+  font-family: 'w3-OpenSans', 300 sans-serif;
+  color: #606161;
+}
+
+.w3-ul{
+  font-size: 13px:
+  font-family: 'w3-OpenSans' 300 sans-serif;
+  color: #606161;
 }
 
 footer {
-
 }
 
 /******************************************
