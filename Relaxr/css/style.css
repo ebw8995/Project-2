@@ -50,8 +50,6 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
 }
 
 
@@ -60,46 +58,75 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
+.container {
   width: 100%;
   margin: auto;
   height: 500px;
 
 }
 
+header{
+  padding: 20px 75px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height:525px;
+}
+
+.header-container{
+  text-align: center;
+  padding-top: 100px;
+}
+
 h1{
 
   font-size:24px;
-  font-family: 'w3-OpenSans', 800 sans-serif;
-  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color:#FFFFFF;
 }
 
 h2{
   font-size: 24px;
-  font-family: 'w3Open+Sans', 600 sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
   color:#FFFFFF;
 }
 
-h3{
+button{
+  border-radius: 5px;
   font-size: 14px;
-  font-family: 'w3-OpenSans', 800 sans-serif;
-  background-color: #f9e42e
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  background-color: #f9e42e;
+  margin-top:50px;
+  padding:7px 35px;
 }
 
 h4{
+  padding-bottom: 25px;
   font-size: 20px;
-  font-family: 'w3-OpenSans', 600 sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
 }
 
-.w3-container{
+.benefits{
+  padding: 40px 75px;
   font-size: 13px;
-  font-family: 'w3-OpenSans', 300 sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   color: #606161;
 }
 
-.w3-ul{
-  font-size: 13px:
-  font-family: 'w3-OpenSans' 300 sans-serif;
+.description{
+  margin-right: 200px;
+  margin-bottom: 25px;
+}
+
+.bullets{
+  margin-left: 20px;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   color: #606161;
 }
 
