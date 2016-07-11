@@ -92,7 +92,7 @@ h2{
   color:#FFFFFF;
 }
 
-button{
+.button-1{
   border-radius: 5px;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
@@ -115,10 +115,11 @@ h4{
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #606161;
+  background: #f0efef
 }
 
 .description{
-  margin-right: 200px;
+  margin-right: 75px;
   margin-bottom: 25px;
 }
 
@@ -130,7 +131,77 @@ h4{
   color: #606161;
 }
 
+.quote{
+  margin: auto;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  text-align:center;
+}
+
+.comment{
+  margin-left: 200px;
+  margin-right: 150px;
+  padding-top: 50px;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  color: #FFFFFF;
+}
+
+.person{
+  padding-bottom: 75px;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.cta{
+  text-align: center;
+  padding: 15px 15px;
+  background-color:#f9e42e;
+}
+
+.button-2{
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  background-color: #033048;
+  color: #FFFFFF;
+  padding:7px 35px;
+}
+
 footer {
+  background-color: #121212;
+  text-align: center;
+}
+
+.brand{
+  padding: 50px 50px;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: #f9e42e;
+}
+
+.copyright{
+  padding: 50px 5px;
+  font-size: 9px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.uno{
+  padding-right: 15px;
+  height: 20px;
+}
+
+.duo{
+  padding-left: 15px;
+  height: 20px;
 }
 
 /******************************************
