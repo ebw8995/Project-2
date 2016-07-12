@@ -204,6 +204,38 @@ footer {
   height: 20px;
 }
 
+@media (max-width: 767px){
+    .container {
+      height: 300px;
+    }
+    /* Header */
+    header{
+      padding: 20px 20px;
+      height: 300px;
+    }
+
+    .header-container{
+      padding-top: 20px;
+    }
+
+    h2{
+        font-size: 18px;
+      }
+      /* Section 1 */
+    h4{
+        text-align: center
+      }
+
+    .description{
+        margin-right: 0px;
+      }
+    /* Section 2 */
+    .comment{
+        margin-left: 40px;
+        margin-right: 40px;
+      }
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
